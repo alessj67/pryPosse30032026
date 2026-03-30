@@ -19,7 +19,7 @@ namespace pryPosse30032026
 
         private void label1_Click(object sender, EventArgs e)
         {
-
+            
         }
 
         private void label1_Click_1(object sender, EventArgs e)
@@ -30,6 +30,16 @@ namespace pryPosse30032026
         private void txtCantCafe_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmCafecito_Load(object sender, EventArgs e)
+        {
+            lblfecha.Text = DateTime.Now.ToString();
         }
     }
 }
