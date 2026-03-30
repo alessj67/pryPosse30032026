@@ -34,8 +34,11 @@ namespace pryPosse30032026
 
         private void button1_Click(object sender, EventArgs e)
         {
-
+            contador = contador + 1;
+            lblCantcafe.Text = contador.ToString();
         }
+
+        int contador = 0;
 
         private void FrmCafecito_Load(object sender, EventArgs e)
         {
