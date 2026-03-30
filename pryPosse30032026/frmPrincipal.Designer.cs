@@ -40,9 +40,11 @@
             // 
             this.lblcafedia.AutoSize = true;
             this.lblcafedia.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblcafedia.Location = new System.Drawing.Point(235, 96);
+            this.lblcafedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblcafedia.Location = new System.Drawing.Point(124, 67);
             this.lblcafedia.Name = "lblcafedia";
-            this.lblcafedia.Size = new System.Drawing.Size(68, 15);
+            this.lblcafedia.Size = new System.Drawing.Size(104, 20);
             this.lblcafedia.TabIndex = 0;
             this.lblcafedia.Text = "Cafe del dia ";
             this.lblcafedia.Click += new System.EventHandler(this.label1_Click);
@@ -51,9 +53,10 @@
             // 
             this.lblfecha.AutoSize = true;
             this.lblfecha.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.lblfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblfecha.Location = new System.Drawing.Point(142, 145);
             this.lblfecha.Name = "lblfecha";
-            this.lblfecha.Size = new System.Drawing.Size(42, 15);
+            this.lblfecha.Size = new System.Drawing.Size(48, 15);
             this.lblfecha.TabIndex = 1;
             this.lblfecha.Text = "Fecha ";
             // 
@@ -70,7 +73,7 @@
             this.lblCantcafe.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblCantcafe.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblCantcafe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantcafe.Location = new System.Drawing.Point(113, 223);
+            this.lblCantcafe.Location = new System.Drawing.Point(91, 204);
             this.lblCantcafe.Name = "lblCantcafe";
             this.lblCantcafe.Size = new System.Drawing.Size(137, 15);
             this.lblCantcafe.TabIndex = 3;
@@ -79,7 +82,7 @@
             // 
             // txtCantCafe
             // 
-            this.txtCantCafe.Location = new System.Drawing.Point(256, 218);
+            this.txtCantCafe.Location = new System.Drawing.Point(234, 199);
             this.txtCantCafe.Name = "txtCantCafe";
             this.txtCantCafe.Size = new System.Drawing.Size(155, 20);
             this.txtCantCafe.TabIndex = 4;
