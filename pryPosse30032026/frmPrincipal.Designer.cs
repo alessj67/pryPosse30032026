@@ -42,7 +42,7 @@
             this.lblcafedia.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblcafedia.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
                 | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblcafedia.Location = new System.Drawing.Point(124, 67);
+            this.lblcafedia.Location = new System.Drawing.Point(132, 25);
             this.lblcafedia.Name = "lblcafedia";
             this.lblcafedia.Size = new System.Drawing.Size(104, 20);
             this.lblcafedia.TabIndex = 0;
@@ -54,7 +54,7 @@
             this.lblfecha.AutoSize = true;
             this.lblfecha.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblfecha.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblfecha.Location = new System.Drawing.Point(507, 32);
+            this.lblfecha.Location = new System.Drawing.Point(300, 29);
             this.lblfecha.Name = "lblfecha";
             this.lblfecha.Size = new System.Drawing.Size(48, 15);
             this.lblfecha.TabIndex = 1;
@@ -66,7 +66,7 @@
             this.lblCantcafe.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.lblCantcafe.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.lblCantcafe.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCantcafe.Location = new System.Drawing.Point(12, 125);
+            this.lblCantcafe.Location = new System.Drawing.Point(12, 88);
             this.lblCantcafe.Name = "lblCantcafe";
             this.lblCantcafe.Size = new System.Drawing.Size(137, 15);
             this.lblCantcafe.TabIndex = 3;
@@ -75,7 +75,7 @@
             // 
             // txtCantCafe
             // 
-            this.txtCantCafe.Location = new System.Drawing.Point(193, 125);
+            this.txtCantCafe.Location = new System.Drawing.Point(193, 83);
             this.txtCantCafe.Name = "txtCantCafe";
             this.txtCantCafe.Size = new System.Drawing.Size(155, 20);
             this.txtCantCafe.TabIndex = 4;
@@ -84,7 +84,7 @@
             // btnAceptar
             // 
             this.btnAceptar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAceptar.Location = new System.Drawing.Point(115, 186);
+            this.btnAceptar.Location = new System.Drawing.Point(106, 164);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(141, 32);
             this.btnAceptar.TabIndex = 5;
@@ -98,14 +98,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(391, 269);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.txtCantCafe);
             this.Controls.Add(this.lblCantcafe);
             this.Controls.Add(this.lblfecha);
             this.Controls.Add(this.lblcafedia);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FrmCafecito";
-            this.Text = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Cafecito";
             this.Load += new System.EventHandler(this.FrmCafecito_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
